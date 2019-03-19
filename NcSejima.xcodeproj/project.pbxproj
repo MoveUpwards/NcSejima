@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		11EED11DAECDD9A22CCC91AF /* Pods_NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */; };
-		F36D8740224135B70028345F /* NcSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F36D873E224135B60028345F /* NcSejima.h */; };
 		F36D874A224136090028345F /* NcSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8749224136090028345F /* NcSejimaTests.swift */; };
 		F36D874C224136090028345F /* NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36D8724224134560028345F /* NcSejima.framework */; };
+		F36D8761224137CD0028345F /* MUCardTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D875C224137CD0028345F /* MUCardTransitioning.swift */; };
+		F36D8762224137CD0028345F /* MUCrossdisolveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D875D224137CD0028345F /* MUCrossdisolveTransitioning.swift */; };
+		F36D8763224137CD0028345F /* MUFlipTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D875E224137CD0028345F /* MUFlipTransitioning.swift */; };
+		F36D8764224137CD0028345F /* MUScrollingTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D875F224137CD0028345F /* MUScrollingTransitioning.swift */; };
+		F36D8765224137CD0028345F /* MUAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */; };
+		F36D8766224137FA0028345F /* NcSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F36D873E224135B60028345F /* NcSejima.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		F36D8747224136090028345F /* NcSejimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NcSejimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36D8749224136090028345F /* NcSejimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NcSejimaTests.swift; sourceTree = "<group>"; };
 		F36D874B224136090028345F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36D875C224137CD0028345F /* MUCardTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCardTransitioning.swift; sourceTree = "<group>"; };
+		F36D875D224137CD0028345F /* MUCrossdisolveTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCrossdisolveTransitioning.swift; sourceTree = "<group>"; };
+		F36D875E224137CD0028345F /* MUFlipTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUFlipTransitioning.swift; sourceTree = "<group>"; };
+		F36D875F224137CD0028345F /* MUScrollingTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUScrollingTransitioning.swift; sourceTree = "<group>"; };
+		F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUAnimatedTransitioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 		F36D8742224135C90028345F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */,
+				F36D875C224137CD0028345F /* MUCardTransitioning.swift */,
+				F36D875D224137CD0028345F /* MUCrossdisolveTransitioning.swift */,
+				F36D875E224137CD0028345F /* MUFlipTransitioning.swift */,
+				F36D875F224137CD0028345F /* MUScrollingTransitioning.swift */,
 			);
 			name = Source;
 			path = NcSejima/Source;
@@ -124,7 +139,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36D8740224135B70028345F /* NcSejima.h in Headers */,
+				F36D8766224137FA0028345F /* NcSejima.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +195,7 @@
 				TargetAttributes = {
 					F36D8723224134560028345F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					F36D8746224136090028345F = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,6 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36D8761224137CD0028345F /* MUCardTransitioning.swift in Sources */,
+				F36D8764224137CD0028345F /* MUScrollingTransitioning.swift in Sources */,
+				F36D8762224137CD0028345F /* MUCrossdisolveTransitioning.swift in Sources */,
+				F36D8763224137CD0028345F /* MUFlipTransitioning.swift in Sources */,
+				F36D8765224137CD0028345F /* MUAnimatedTransitioning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -416,6 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.NcSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -450,6 +474,7 @@
 		F36D8750224136090028345F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6S4Z2KMUS;
 				INFOPLIST_FILE = NcSejimaTests/Info.plist;
@@ -468,6 +493,7 @@
 		F36D8751224136090028345F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6S4Z2KMUS;
 				INFOPLIST_FILE = NcSejimaTests/Info.plist;
