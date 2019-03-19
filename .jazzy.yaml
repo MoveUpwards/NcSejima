@@ -1,0 +1,8 @@
+author: Move Upwards
+author_url: https://github.com/MoveUpwards
+github_url: https://github.com/MoveUpwards/NcSejima
+root_url: https://github.com/MoveUpwards
+module: NcSejima
+output: docs
+theme: fullwidth
+xcodebuild_arguments: [-workspace, 'NcSejima.xcworkspace', -scheme, 'NcSejima']
