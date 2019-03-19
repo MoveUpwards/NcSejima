@@ -1,0 +1,6 @@
+framework module Pods_NcSejimaTests {
+  umbrella header "Pods-NcSejimaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

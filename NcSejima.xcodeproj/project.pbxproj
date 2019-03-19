@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EED11DAECDD9A22CCC91AF /* Pods_NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */; };
+		F36D8740224135B70028345F /* NcSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F36D873E224135B60028345F /* NcSejima.h */; };
+		F36D874A224136090028345F /* NcSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8749224136090028345F /* NcSejimaTests.swift */; };
+		F36D874C224136090028345F /* NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36D8724224134560028345F /* NcSejima.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36D874D224136090028345F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36D871B224134550028345F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36D8723224134560028345F;
+			remoteInfo = NcSejima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejima.release.xcconfig"; path = "Target Support Files/Pods-NcSejima/Pods-NcSejima.release.xcconfig"; sourceTree = "<group>"; };
+		2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejima.debug.xcconfig"; path = "Target Support Files/Pods-NcSejima/Pods-NcSejima.debug.xcconfig"; sourceTree = "<group>"; };
+		59BA585ADCBB752C07570DE3 /* Pods-NcSejimaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejimaTests.debug.xcconfig"; path = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6192CB2A18156D3A3E4CE089 /* Pods_NcSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01A66D4E45386EE043B6BBB /* Pods-NcSejimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejimaTests.release.xcconfig"; path = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D8724224134560028345F /* NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NcSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D873E224135B60028345F /* NcSejima.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NcSejima.h; path = NcSejima/NcSejima.h; sourceTree = "<group>"; };
+		F36D873F224135B70028345F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NcSejima/Info.plist; sourceTree = "<group>"; };
+		F36D8747224136090028345F /* NcSejimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NcSejimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D8749224136090028345F /* NcSejimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NcSejimaTests.swift; sourceTree = "<group>"; };
+		F36D874B224136090028345F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36D8721224134560028345F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EED11DAECDD9A22CCC91AF /* Pods_NcSejima.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D8744224136090028345F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D874C224136090028345F /* NcSejima.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F153FF58B3B1117DB5D045E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */,
+				000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */,
+				59BA585ADCBB752C07570DE3 /* Pods-NcSejimaTests.debug.xcconfig */,
+				C01A66D4E45386EE043B6BBB /* Pods-NcSejimaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B818D150A1D786D7547F468C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */,
+				6192CB2A18156D3A3E4CE089 /* Pods_NcSejimaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36D871A224134550028345F = {
+			isa = PBXGroup;
+			children = (
+				F36D873F224135B70028345F /* Info.plist */,
+				F36D873E224135B60028345F /* NcSejima.h */,
+				F36D8742224135C90028345F /* Source */,
+				F36D8748224136090028345F /* NcSejimaTests */,
+				F36D8725224134560028345F /* Products */,
+				2F153FF58B3B1117DB5D045E /* Pods */,
+				B818D150A1D786D7547F468C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F36D8725224134560028345F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36D8724224134560028345F /* NcSejima.framework */,
+				F36D8747224136090028345F /* NcSejimaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36D8742224135C90028345F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			path = NcSejima/Source;
+			sourceTree = "<group>";
+		};
+		F36D8748224136090028345F /* NcSejimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36D8749224136090028345F /* NcSejimaTests.swift */,
+				F36D874B224136090028345F /* Info.plist */,
+			);
+			path = NcSejimaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F36D871F224134560028345F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D8740224135B70028345F /* NcSejima.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F36D8723224134560028345F /* NcSejima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36D8738224134560028345F /* Build configuration list for PBXNativeTarget "NcSejima" */;
+			buildPhases = (
+				8D600C8C35DC3156DD3126A4 /* [CP] Check Pods Manifest.lock */,
+				F36D871F224134560028345F /* Headers */,
+				F36D8720224134560028345F /* Sources */,
+				F36D8721224134560028345F /* Frameworks */,
+				F36D8722224134560028345F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NcSejima;
+			productName = NcSejima;
+			productReference = F36D8724224134560028345F /* NcSejima.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F36D8746224136090028345F /* NcSejimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36D874F224136090028345F /* Build configuration list for PBXNativeTarget "NcSejimaTests" */;
+			buildPhases = (
+				F36D8743224136090028345F /* Sources */,
+				F36D8744224136090028345F /* Frameworks */,
+				F36D8745224136090028345F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36D874E224136090028345F /* PBXTargetDependency */,
+			);
+			name = NcSejimaTests;
+			productName = NcSejimaTests;
+			productReference = F36D8747224136090028345F /* NcSejimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36D871B224134550028345F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Loïc GRIFFIE";
+				TargetAttributes = {
+					F36D8723224134560028345F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F36D8746224136090028345F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F36D871E224134550028345F /* Build configuration list for PBXProject "NcSejima" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F36D871A224134550028345F;
+			productRefGroup = F36D8725224134560028345F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36D8723224134560028345F /* NcSejima */,
+				F36D8746224136090028345F /* NcSejimaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36D8722224134560028345F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D8745224136090028345F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D600C8C35DC3156DD3126A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NcSejima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36D8720224134560028345F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36D8743224136090028345F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36D874A224136090028345F /* NcSejimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36D874E224136090028345F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36D8723224134560028345F /* NcSejima */;
+			targetProxy = F36D874D224136090028345F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F36D8736224134560028345F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F36D8737224134560028345F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F36D8739224134560028345F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W6S4Z2KMUS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NcSejima/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.NcSejima;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36D873A224134560028345F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W6S4Z2KMUS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NcSejima/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.NcSejima;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36D8750224136090028345F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6S4Z2KMUS;
+				INFOPLIST_FILE = NcSejimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.NcSejimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36D8751224136090028345F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6S4Z2KMUS;
+				INFOPLIST_FILE = NcSejimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.NcSejimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36D871E224134550028345F /* Build configuration list for PBXProject "NcSejima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D8736224134560028345F /* Debug */,
+				F36D8737224134560028345F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36D8738224134560028345F /* Build configuration list for PBXNativeTarget "NcSejima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D8739224134560028345F /* Debug */,
+				F36D873A224134560028345F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36D874F224136090028345F /* Build configuration list for PBXNativeTarget "NcSejimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36D8750224136090028345F /* Debug */,
+				F36D8751224136090028345F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36D871B224134550028345F /* Project object */;
+}
