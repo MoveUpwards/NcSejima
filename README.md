@@ -3,7 +3,7 @@
 ![Platform: iOS 11+](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods](https://img.shields.io/cocoapods/v/NcSejima.svg)](http://cocoapods.org/pods/NcSejima)
-[![![Codacy Badge](https://api.codacy.com/project/badge/Grade/8314f541d1654bddbe32cd6f539be77b)](https://www.codacy.com/app/MoveUpwards/NcSejima?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MoveUpwards/NcSejima&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8314f541d1654bddbe32cd6f539be77b)](https://www.codacy.com/app/MoveUpwards/NcSejima?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MoveUpwards/NcSejima&amp;utm_campaign=Badge_Grade)
 ![Build Status](https://app.bitrise.io/app/209adbcb1859a455.svg?token=pOPhDEeeYDPl4EdIVrnzzA)
 [![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/MoveUpwards/NcSejima/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/MoveUpwards/NcSejima.svg)](https://github.com/MoveUpwards/NcSejima/graphs/contributors)
