@@ -8,14 +8,6 @@
 
 import UIKit
 
-public enum MUTransitionStyle {
-    case `default`
-    case crossdisolve
-    case flip(isHorizontal: Bool)
-    case card
-    case scroll(_ direction: MUScrollingTransitioningDirection)
-}
-
 private var currentStyle = [MUTransitionStyle.default]
 
 extension UINavigationController: UINavigationControllerDelegate {

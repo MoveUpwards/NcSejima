@@ -17,6 +17,7 @@
 		F36D8765224137CD0028345F /* MUAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */; };
 		F36D8766224137FA0028345F /* NcSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F36D873E224135B60028345F /* NcSejima.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F36D8768224139250028345F /* MUNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8767224139250028345F /* MUNavigationController.swift */; };
+		F36D876A22413B870028345F /* MUTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D876922413B870028345F /* MUTransitionStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F36D875F224137CD0028345F /* MUScrollingTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUScrollingTransitioning.swift; sourceTree = "<group>"; };
 		F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		F36D8767224139250028345F /* MUNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNavigationController.swift; sourceTree = "<group>"; };
+		F36D876922413B870028345F /* MUTransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTransitionStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		F36D8742224135C90028345F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				F36D876922413B870028345F /* MUTransitionStyle.swift */,
 				F36D8767224139250028345F /* MUNavigationController.swift */,
 				F36D8760224137CD0028345F /* MUAnimatedTransitioning.swift */,
 				F36D875C224137CD0028345F /* MUCardTransitioning.swift */,
@@ -158,6 +161,8 @@
 				F36D8720224134560028345F /* Sources */,
 				F36D8721224134560028345F /* Frameworks */,
 				F36D8722224134560028345F /* Resources */,
+				F36D876B22413BC40028345F /* Swiftlint */,
+				F36D876C22413BD40028345F /* Jazzy */,
 			);
 			buildRules = (
 			);
@@ -263,6 +268,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F36D876B22413BC40028345F /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		F36D876C22413BD40028345F /* Jazzy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Jazzy;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if which jazzy >/dev/null; then\n# Working command to tap in your terminal:\n#jazzy -x -workspace,NcSejima.xcworkspace,-scheme,NcSejima -a MoveUpwards -u https://moveupwards.dev -g https://github.com/MoveUpwards/NcSejima --min-acl internal\n#else\n#echo \"warning: jazzy not installed, download from https://github.com/realm/jazzy\"\n#fi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,6 +316,7 @@
 				F36D8762224137CD0028345F /* MUCrossdisolveTransitioning.swift in Sources */,
 				F36D8763224137CD0028345F /* MUFlipTransitioning.swift in Sources */,
 				F36D8765224137CD0028345F /* MUAnimatedTransitioning.swift in Sources */,
+				F36D876A22413B870028345F /* MUTransitionStyle.swift in Sources */,
 				F36D8768224139250028345F /* MUNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
