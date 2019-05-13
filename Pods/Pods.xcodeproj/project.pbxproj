@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,7 @@
 		1058B9AC51D190F07936B57D394DC415 /* Pods-NcSejimaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NcSejimaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1966207C0DB1EE43D6FF39F0A7BA3102 /* Pods-NcSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NcSejima.release.xcconfig"; sourceTree = "<group>"; };
 		29B700BD9579BBAE9E546A20311158F7 /* Pods-NcSejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NcSejima.debug.xcconfig"; sourceTree = "<group>"; };
-		300676158269041F9B127814F4154F61 /* Pods_NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NcSejima.framework; path = "Pods-NcSejima.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300676158269041F9B127814F4154F61 /* Pods_NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4150CB0077E6990D58204C18243454CA /* Pods-NcSejimaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NcSejimaTests-umbrella.h"; sourceTree = "<group>"; };
 		467D65C2770F293DE736C39458A41B1C /* Pods-NcSejimaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NcSejimaTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B2FDC89C83C9407DF0DDFF970A863C9 /* Pods-NcSejima-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NcSejima-dummy.m"; sourceTree = "<group>"; };
@@ -38,8 +38,8 @@
 		76E11995EF3F2CB150530A6DA4F3ABF1 /* Pods-NcSejima-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NcSejima-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8202B7F1ACF272E55C269E6D72BD71E7 /* Pods-NcSejimaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NcSejimaTests-Info.plist"; sourceTree = "<group>"; };
 		8D1B54D6FCA34FCB7EDAB23CD8C9A8C5 /* Pods-NcSejima-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NcSejima-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A16837F3851A47AD6FE96599A163FE85 /* Pods_NcSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NcSejimaTests.framework; path = "Pods-NcSejimaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A16837F3851A47AD6FE96599A163FE85 /* Pods_NcSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA3A117BDA14F86D1BE05EFF967B56C /* Pods-NcSejima-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NcSejima-acknowledgements.plist"; sourceTree = "<group>"; };
 		C890FCDD7B9FE31FC33340B27C997BA6 /* Pods-NcSejima.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NcSejima.modulemap"; sourceTree = "<group>"; };
 		C892803C7EA1F467C86CC74B6315EC97 /* Pods-NcSejimaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NcSejimaTests.modulemap"; sourceTree = "<group>"; };
@@ -210,14 +210,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = A8262F64B950EBCE8E6B35951E5767BD /* Products */;
@@ -293,11 +294,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -331,11 +328,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NcSejima/Pods-NcSejima-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NcSejima/Pods-NcSejima.modulemap";
 				OTHER_LDFLAGS = "";
@@ -355,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -419,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -468,8 +463,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -492,11 +486,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -529,11 +519,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-NcSejima/Pods-NcSejima-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NcSejima/Pods-NcSejima.modulemap";
 				OTHER_LDFLAGS = "";
