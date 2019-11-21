@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "NcSejima",
             dependencies: [],
-            path: "Sources"
+            path: "NcSejima/Sources"
         ),
         .testTarget(
             name: "NcSejimaTests",
