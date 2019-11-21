@@ -20,10 +20,5 @@ let package = Package(
             dependencies: [],
             path: "NcSejima/Sources"
         ),
-        .testTarget(
-            name: "NcSejimaTests",
-            dependencies: [],
-            path: "Tests"
-        ),
     ]
 )
