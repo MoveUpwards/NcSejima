@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/MoveUpwards/NcSejima.git', :tag => s.version }
   s.swift_version           = '5.2'
   s.ios.deployment_target   = '9.1'
-  s.source_files            = 'NcSejima/Source/**/*.swift'
+  s.source_files            = 'NcSejima/Sources/**/*.swift'
   s.frameworks              = 'Foundation'
 end
