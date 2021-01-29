@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11EED11DAECDD9A22CCC91AF /* Pods_NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */; };
 		F36D874A224136090028345F /* NcSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36D8749224136090028345F /* NcSejimaTests.swift */; };
 		F36D874C224136090028345F /* NcSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36D8724224134560028345F /* NcSejima.framework */; };
 		F3A7E204248110D4002C1CDF /* MUCrossdisolveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7E1FB248110D4002C1CDF /* MUCrossdisolveTransitioning.swift */; };
@@ -31,12 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejima.release.xcconfig"; path = "Target Support Files/Pods-NcSejima/Pods-NcSejima.release.xcconfig"; sourceTree = "<group>"; };
-		2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejima.debug.xcconfig"; path = "Target Support Files/Pods-NcSejima/Pods-NcSejima.debug.xcconfig"; sourceTree = "<group>"; };
-		59BA585ADCBB752C07570DE3 /* Pods-NcSejimaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejimaTests.debug.xcconfig"; path = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6192CB2A18156D3A3E4CE089 /* Pods_NcSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C01A66D4E45386EE043B6BBB /* Pods-NcSejimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NcSejimaTests.release.xcconfig"; path = "Target Support Files/Pods-NcSejimaTests/Pods-NcSejimaTests.release.xcconfig"; sourceTree = "<group>"; };
-		C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NcSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36D8724224134560028345F /* NcSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NcSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36D8747224136090028345F /* NcSejimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NcSejimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36D8749224136090028345F /* NcSejimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NcSejimaTests.swift; sourceTree = "<group>"; };
@@ -57,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EED11DAECDD9A22CCC91AF /* Pods_NcSejima.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,21 +67,8 @@
 		2F153FF58B3B1117DB5D045E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */,
-				000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */,
-				59BA585ADCBB752C07570DE3 /* Pods-NcSejimaTests.debug.xcconfig */,
-				C01A66D4E45386EE043B6BBB /* Pods-NcSejimaTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B818D150A1D786D7547F468C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C6E5003F633170DA7B3CAC9C /* Pods_NcSejima.framework */,
-				6192CB2A18156D3A3E4CE089 /* Pods_NcSejimaTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F36D871A224134550028345F = {
@@ -99,7 +78,6 @@
 				F36D8748224136090028345F /* NcSejimaTests */,
 				F36D8725224134560028345F /* Products */,
 				2F153FF58B3B1117DB5D045E /* Pods */,
-				B818D150A1D786D7547F468C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +141,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F36D8738224134560028345F /* Build configuration list for PBXNativeTarget "NcSejima" */;
 			buildPhases = (
-				8D600C8C35DC3156DD3126A4 /* [CP] Check Pods Manifest.lock */,
 				F36D871F224134560028345F /* Headers */,
 				F36D8720224134560028345F /* Sources */,
 				F36D8721224134560028345F /* Frameworks */,
@@ -255,28 +232,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8D600C8C35DC3156DD3126A4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NcSejima-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F36D876B22413BC40028345F /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,7 +428,6 @@
 		};
 		F36D8739224134560028345F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A82EAF00020ED99E270A919 /* Pods-NcSejima.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -503,7 +457,6 @@
 		};
 		F36D873A224134560028345F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000812DE4D92FE5F868776D6 /* Pods-NcSejima.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
