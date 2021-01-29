@@ -16,13 +16,11 @@ public enum MUScrollingTransitioningDirection {
 }
 
 open class MUScrollingTransitioning: MUAnimatedTransitioning {
-    open var direction = MUScrollingTransitioningDirection.rightToLeft
+    public let direction: MUScrollingTransitioningDirection
 
-    convenience public init(duration: TimeInterval,
-                            reverse: Bool = false,
-                            direction: MUScrollingTransitioningDirection = .rightToLeft) {
-        self.init(duration: duration, reverse: reverse)
+    public init(duration: TimeInterval, reverse: Bool = false, direction: MUScrollingTransitioningDirection) {
         self.direction = direction
+        super.init(duration: duration, reverse: reverse)
     }
 
     override open func animateTransition(using transitionContext: UIViewControllerContextTransitioning,
