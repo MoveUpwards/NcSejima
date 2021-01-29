@@ -8,7 +8,7 @@
 
 import UIKit
 
-private var currentStyle = [MUTransitionStyle.default]
+private var currentStyle = [MUTransitionStyle]()
 
 extension UINavigationController: UINavigationControllerDelegate {
     public func setRoot(_ vc: UIViewController, style: MUTransitionStyle = .default) {
@@ -67,14 +67,14 @@ extension UINavigationController: UINavigationControllerDelegate {
         switch style {
         case .default:
             return nil
-        case .crossdisolve:
-            return MUCrossdisolveTransitioning(reverse: reverse)
-        case .flip(let isHorizontal):
-            return MUFlipTransitioning(reverse: reverse, isHorizontal: isHorizontal)
-        case .card:
-            return MUCardTransitioning(reverse: reverse)
-        case .scroll(let direction):
-            return MUScrollingTransitioning(reverse: reverse, direction: direction)
+        case .crossdisolve(let duration):
+            return MUCrossdisolveTransitioning(duration: duration, reverse: reverse)
+        case .flip(let isHorizontal, let duration):
+            return MUFlipTransitioning(duration: duration, reverse: reverse, isHorizontal: isHorizontal)
+        case .card(let duration):
+            return MUCardTransitioning(duration: duration, reverse: reverse)
+        case .scroll(let direction, let duration):
+            return MUScrollingTransitioning(duration: duration, reverse: reverse, direction: direction)
         }
     }
 }

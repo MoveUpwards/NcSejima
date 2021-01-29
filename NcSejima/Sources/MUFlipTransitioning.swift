@@ -12,12 +12,11 @@
 import UIKit
 
 open class MUFlipTransitioning: MUAnimatedTransitioning {
-    open var isHorizontal = true
+    public let isHorizontal: Bool
 
-    convenience public init(reverse: Bool = false, isHorizontal: Bool = true) {
-        self.init(reverse: reverse)
-        self.reverse = reverse
+    public init(duration: TimeInterval, reverse: Bool = false, isHorizontal: Bool) {
         self.isHorizontal = isHorizontal
+        super.init(duration: duration, reverse: reverse)
     }
 
     override open func animateTransition(using transitionContext: UIViewControllerContextTransitioning,

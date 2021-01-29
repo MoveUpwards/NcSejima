@@ -9,12 +9,13 @@
 import UIKit
 
 open class MUAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
-    open var duration = TimeInterval(0.5)
-    open var reverse = false
+    public let duration: TimeInterval
+    public let reverse: Bool
 
-    convenience public init(reverse: Bool = false) {
-        self.init()
+    public init(duration: TimeInterval, reverse: Bool) {
+        self.duration = duration
         self.reverse = reverse
+        super.init()
     }
 
     open func animateTransition(using transitionContext: UIViewControllerContextTransitioning,
