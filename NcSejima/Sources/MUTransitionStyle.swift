@@ -10,8 +10,8 @@ import Foundation
 
 public enum MUTransitionStyle {
     case `default`
-    case crossdisolve
-    case flip(isHorizontal: Bool)
-    case card
-    case scroll(_ direction: MUScrollingTransitioningDirection)
+    case crossdisolve(duration: TimeInterval = 0.5)
+    case flip(isHorizontal: Bool, duration: TimeInterval = 0.5)
+    case card(duration: TimeInterval = 0.5)
+    case scroll(_ direction: MUScrollingTransitioningDirection, duration: TimeInterval = 0.5)
 }

@@ -14,9 +14,8 @@ import UIKit
 open class MUFlipTransitioning: MUAnimatedTransitioning {
     open var isHorizontal = true
 
-    convenience public init(reverse: Bool = false, isHorizontal: Bool = true) {
-        self.init(reverse: reverse)
-        self.reverse = reverse
+    convenience public init(duration: TimeInterval, reverse: Bool = false, isHorizontal: Bool = true) {
+        self.init(duration: duration, reverse: reverse)
         self.isHorizontal = isHorizontal
     }
 

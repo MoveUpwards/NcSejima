@@ -18,9 +18,10 @@ public enum MUScrollingTransitioningDirection {
 open class MUScrollingTransitioning: MUAnimatedTransitioning {
     open var direction = MUScrollingTransitioningDirection.rightToLeft
 
-    convenience public init(reverse: Bool = false, direction: MUScrollingTransitioningDirection = .rightToLeft) {
-        self.init(reverse: reverse)
-        self.reverse = reverse
+    convenience public init(duration: TimeInterval,
+                            reverse: Bool = false,
+                            direction: MUScrollingTransitioningDirection = .rightToLeft) {
+        self.init(duration: duration, reverse: reverse)
         self.direction = direction
     }
 
